@@ -20,7 +20,7 @@ The project has not made an official 1.0.0 release. Entries below record reposit
 - Established adaptive production workflow and three-level QA approach.
 - Established project continuity, decision tracking, change control, and handoff requirements.
 - Added repository overview and project decision record.
-- Added the main `SKILL.md` with operating principles, workflow, authority rules, QA, verification vocabulary, and links to specialist references and templates.
+- Added the main `SKILL.md` with operating principles, workflow, authority rules, QA, verification vocabulary, activation guidance, execution rules, edge cases, examples, and links to specialist references and templates.
 - Added all ten specialist reference documents:
   - Creative Direction
   - Graphic Design & Branding
@@ -38,10 +38,12 @@ The project has not made an official 1.0.0 release. Entries below record reposit
   - QA Checklist
   - Project Handoff
 
-### In progress
-- Audit document boundaries, internal links, consistency, and skill-format requirements.
-- Validate instructions against practical workflows and correct any gaps.
-- Prepare release documentation and determine whether installation-specific packaging is needed.
+### Validation status
+- All 15 core documents were fetched back from GitHub after creation.
+- All 14 relative links in `SKILL.md` were checked against repository paths; no broken links were found.
+- `SKILL.md` frontmatter has the required `name` and `description`; the identifier is 32 characters, and the file is 175 lines before the latest activation-guidance expansion (still below the 500-line recommendation).
+- Main skill activation guidance and examples were expanded.
+- Runtime installation and real-agent workflow testing have not yet been performed; the project remains unreleased.
 
 ## Versioning policy
 
