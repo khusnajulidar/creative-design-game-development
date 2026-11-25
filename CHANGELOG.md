@@ -8,8 +8,7 @@ The project has not made an official 1.0.0 release. Entries below record reposit
 
 ### Added
 - Created the public GitHub repository.
-- Established the seven-discipline scope:
-  - Creative Direction
+- Established seven specialist disciplines, with Creative Direction as a cross-cutting capability:
   - Graphic Design & Branding
   - Illustration & 3D
   - UI/UX Design
