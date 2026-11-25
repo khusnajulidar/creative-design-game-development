@@ -2,7 +2,7 @@
 
 A professional, tool-agnostic AI Agent Skill for planning, designing, producing, integrating, and quality-checking creative work and digital experiences.
 
-The skill is intended to support complete, usable deliverables—not merely ideas or attractive mockups—across seven connected disciplines:
+The skill is intended to support complete, usable deliverables—not merely ideas or attractive mockups—across seven specialist disciplines. **Creative Direction is a cross-cutting capability** that aligns the concept, audience experience, and quality of work across those disciplines:
 
 1. **Graphic Design & Branding** — visual identity, logos, campaigns, publications, packaging, and digital graphics.
 2. **Illustration & 3D Design** — 2D illustration, 3D assets, environments, materials, lighting, and production-ready exports.
@@ -69,7 +69,9 @@ Platform-specific packaging or installation instructions may be added as adapter
 
 - Repository foundation: created.
 - Architecture and governing decisions: defined.
-- Core skill and reference documents: being authored and audited.
+- Core skill, ten references, and four templates: authored.
+- Structural checks: file inventory, relative links, and Agent Skills metadata reviewed.
+- Further validation: runtime installation and real-agent workflow testing remain outstanding.
 - Release: not yet published.
 
 **Target initial version:** 1.0.0
