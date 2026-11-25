@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented here.
 
-The project has not made an official 1.0.0 release. Entries below record repository and skill-development milestones; they do not imply that final audits, installation tests, or release validation are complete.
+The project has not made an official 1.0.0 release. The static repository review is complete; runtime installation, host-agent testing, and release validation remain pending.
 
 ## [Unreleased]
 
