@@ -37,6 +37,7 @@ creative-design-game-development/
 ├── PROJECT-DECISIONS.md
 ├── INSTALLATION.md
 ├── VALIDATION-REPORT.md
+├── USER-GUIDE.md
 ├── SKILL.md
 ├── references/
 │   ├── creative-direction.md
@@ -56,11 +57,12 @@ creative-design-game-development/
     └── handoff-document.md
 ```
 
-The skill package consists of **15 core documents**: one `SKILL.md`, ten discipline and practice references, and four reusable templates. Root-level documentation provides the README, changelog, approved project decisions, generic installation guidance, and a validation report.
+The skill package consists of **15 core documents**: one `SKILL.md`, ten discipline and practice references, and four reusable templates. Root-level documentation provides the README, changelog, approved project decisions, installation guidance, validation report, and user guide.
 
-## Installation and validation
+## Installation, usage, and validation
 
 - [Installation Guide](INSTALLATION.md) explains how to place the complete package in an Agent Skills-compatible environment without assuming a product-specific directory.
+- [User Guide](USER-GUIDE.md) explains how to brief the agent, work through projects, manage revisions, request evidence, and test the skill in practice.
 - [Validation Report](VALIDATION-REPORT.md) records static checks, outstanding runtime tests, and release criteria.
 
 ## How to use
@@ -77,8 +79,9 @@ Platform-specific packaging or installation instructions may be added as adapter
 - Repository foundation: created.
 - Architecture and governing decisions: defined.
 - Core skill, ten references, and four templates: authored.
+- User guide: authored and committed.
 - Structural checks: file inventory, relative links, and Agent Skills metadata reviewed.
-- Further validation: runtime installation and real-agent workflow testing remain outstanding.
+- Further validation: official `skills-ref validate` and real-agent workflow testing remain outstanding.
 - Release: not yet published.
 
 **Target initial version:** 1.0.0
