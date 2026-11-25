@@ -19,7 +19,7 @@ The project has not made an official 1.0.0 release. Entries below record reposit
 - Defined professional-proactive autonomy, T-shaped competency, and ready-to-use deliverable goals.
 - Established adaptive production workflow and three-level QA approach.
 - Established project continuity, decision tracking, change control, and handoff requirements.
-- Added repository overview and project decision record.
+- Added repository overview, project decision record, installation guide, and static validation report.
 - Added the main `SKILL.md` with operating principles, workflow, authority rules, QA, verification vocabulary, activation guidance, execution rules, edge cases, examples, and links to specialist references and templates.
 - Added all ten specialist reference documents:
   - Creative Direction
@@ -41,8 +41,9 @@ The project has not made an official 1.0.0 release. Entries below record reposit
 ### Validation status
 - All 15 core documents were fetched back from GitHub after creation.
 - All 14 relative links in `SKILL.md` were checked against repository paths; no broken links were found.
-- `SKILL.md` frontmatter has the required `name` and `description`; the identifier is 32 characters, and the file is 175 lines before the latest activation-guidance expansion (still below the 500-line recommendation).
+- `SKILL.md` frontmatter has the required `name` and `description`; the identifier is 32 characters, and the current file is 242 lines (below the 500-line recommendation).
 - Main skill activation guidance and examples were expanded.
+- Added a generic installation guide and a validation report that separates completed static checks from pending runtime tests.
 - Runtime installation and real-agent workflow testing have not yet been performed; the project remains unreleased.
 
 ## Versioning policy
