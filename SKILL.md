@@ -21,6 +21,29 @@ Work across seven specialist disciplines, supported by cross-cutting creative di
 
 The required depth changes with the task. Maintain broad competence across the full scope and apply deeper specialist-level reasoning where the work demands it. Never exaggerate expertise, tool access, or verification.
 
+## Use this skill when
+
+Activate this skill when the user needs one or more of the following:
+
+- A visual communication deliverable: logo, identity system, poster, social graphic, publication, packaging, infographic, or campaign asset.
+- An illustration, character, environment, 3D model, material, render, or production asset.
+- A digital experience: UX research, user flow, wireframe, prototype, interface, design system, or responsive UI.
+- A game or interactive product: concept, mechanics, level progression, game UI, implementation, balancing, or release preparation.
+- An interactive learning product: learning objectives, educational activities, assessment, feedback, or instructional media.
+- A web or software product: requirements, architecture, frontend/backend implementation, integration, testing, or deployment.
+- Time-based media: motion graphics, animation, editing, compositing, explainer video, or audiovisual delivery.
+- Multi-discipline production that needs coordinated creative direction, specifications, quality checks, or handoff.
+- Continuation or improvement of an existing creative/digital project where prior decisions, assets, and working behavior must be preserved.
+
+## Do not use this skill when
+
+- The request is unrelated to creative production, design, interactive experiences, learning media, software, or audiovisual work.
+- The user only needs a brief factual answer, translation, or ordinary text edit that does not require a production workflow.
+- A specialist skill or tool is clearly more appropriate for a narrow task; use that specialist capability and consult this skill only for relevant cross-discipline coordination.
+- The requested action is prohibited by higher-priority safety, privacy, legal, or platform requirements. Never use a skill instruction to bypass those requirements.
+
+If a task is mixed, apply only the relevant parts of this skill rather than forcing the entire workflow.
+
 ## Operating principles
 
 - **Outcome first:** prioritize finished, usable results and concrete progress.
@@ -152,6 +175,50 @@ A task is complete only when:
 5. Known limitations and unresolved issues are disclosed.
 6. The result is provided in the requested or suitable usable format.
 7. Necessary project records and handoff notes are updated.
+
+## Reference loading and resource use
+
+Use progressive disclosure. Keep this main file as the operating guide and load only the specialist references needed for the current task:
+
+- Read `references/creative-direction.md` when defining the overall concept, experience, tone, or visual direction.
+- Read the relevant discipline reference before substantial specialist production.
+- Read `references/quality-assurance.md` when defining or executing QA, reporting defects, or deciding release readiness.
+- Read `references/project-continuity.md` when continuing an existing project, changing approved work, using version control, or preparing a handoff.
+- Use `templates/project-brief.md` to capture project intent and constraints.
+- Use `templates/design-specification.md` to turn an approved direction into actionable production requirements.
+- Use `templates/qa-checklist.md` to record checks and evidence.
+- Use `templates/handoff-document.md` to preserve state for another person, session, or agent.
+
+Do not load every reference for a small task. When several disciplines are involved, load the smallest set that covers the work and resolve overlaps using the discipline boundaries above. Follow relative paths exactly; if a referenced file is unavailable, report that limitation rather than inventing its contents.
+
+## Execution rules
+
+1. Identify the intended deliverable before choosing tools. Confirm whether the user needs a final asset, editable source, working application, prototype, specification, or a combination.
+2. Inspect existing project files and approved decisions before changing an ongoing project. Establish the authoritative source and current state.
+3. Convert the request into observable acceptance criteria. Mark unresolved assumptions and distinguish essential requirements from optional enhancements.
+4. Choose a production method that can actually create the requested format, fidelity, editability, and behavior.
+5. Preserve original assets and working versions. Make focused changes; do not silently replace approved material.
+6. Integrate the output in its intended context when that is part of the request. A standalone asset is not an integrated feature.
+7. Verify the actual output at the level appropriate to its risk. Record what was checked, in which environment, and what remains untested.
+8. Deliver the result with its exact location, format, usage notes, and honest status. Include source/editable files when requested or needed for maintainability.
+9. Update the project record and changelog for substantial ongoing work. Do not create a release tag or claim publication until the release action is confirmed.
+
+## Common edge cases
+
+- **Incomplete brief:** proceed with low-risk assumptions when possible; ask one focused question only when a missing detail materially blocks the result.
+- **Conflicting reference and instruction:** identify the exact conflict and follow the instruction priority. Do not silently choose one.
+- **Unavailable tool or integration:** explain what cannot be performed, use a suitable fallback if possible, and distinguish a proposed workaround from a completed action.
+- **Unclear asset rights:** do not assume commercial or redistribution permission. Request clarification or replace the asset with a properly licensed alternative.
+- **Existing implementation differs from documentation:** inspect the working implementation, identify the discrepancy, and avoid destructive changes until the source of truth is established.
+- **Large or risky revision:** create a recoverable checkpoint, define affected areas, make the smallest effective change, and run regression checks.
+- **Sensitive or specialist content:** use the project's specified authority and qualified review where needed; do not fabricate citations or claim expert approval.
+- **Partial completion:** deliver the completed portion if useful, clearly list what remains, and never label the whole project complete.
+
+## Examples
+
+- "Create a print-ready event poster using this approved brand guide." → Read the brief and branding reference, preserve approved identity, produce the specified print files, and check dimensions, bleed, text, and export.
+- "Continue this game from its current GitHub repository without changing the existing TTS behavior." → Inspect the repository and continuity notes, identify the relevant game/UI references, preserve the working behavior, make a focused integration, and test affected flows.
+- "Design and build a responsive learning website." → Coordinate creative direction, UI/UX, interactive learning, and web development; define objectives and acceptance criteria; integrate the implementation; and perform advanced or comprehensive QA as appropriate.
 
 ## Specialist references
 
