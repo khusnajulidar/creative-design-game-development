@@ -2,34 +2,47 @@
 
 All notable changes to this project will be documented here.
 
-The project has not made an official 1.0.0 release. Entries below record repository and skill-development milestones; they do not imply that planned documents or tests are already complete.
+The project has not made an official 1.0.0 release. Entries below record repository and skill-development milestones; they do not imply that final audits, installation tests, or release validation are complete.
 
 ## [Unreleased]
 
 ### Added
 - Created the public GitHub repository.
 - Established the seven-discipline scope:
+  - Creative Direction
   - Graphic Design & Branding
-  - Illustration & 3D Design
-  - UI/UX & Interface Design
+  - Illustration & 3D
+  - UI/UX Design
   - Game Design & Development
-  - Interactive Learning Media
+  - Interactive Learning
   - Web & Application Development
-  - Motion Graphics, Animation & Video Production
-- Defined the professional-proactive autonomy model and T-shaped competency approach.
-- Established the ready-to-use deliverable objective.
-- Defined the adaptive production workflow and three-level QA approach.
-- Established project continuity, decision tracking, change control, and handoff as core requirements.
-- Identified intellectual-property, accessibility, compatibility, and verification requirements.
-- Added the initial repository overview and project decision record.
+  - Motion, Animation & Video
+- Defined professional-proactive autonomy, T-shaped competency, and ready-to-use deliverable goals.
+- Established adaptive production workflow and three-level QA approach.
+- Established project continuity, decision tracking, change control, and handoff requirements.
+- Added repository overview and project decision record.
+- Added the main `SKILL.md` with operating principles, workflow, authority rules, QA, verification vocabulary, and links to specialist references and templates.
+- Added all ten specialist reference documents:
+  - Creative Direction
+  - Graphic Design & Branding
+  - Illustration & 3D
+  - UI/UX Design
+  - Game Design & Development
+  - Interactive Learning
+  - Web & Application Development
+  - Motion, Animation & Video
+  - Quality Assurance
+  - Project Continuity & Version Control
+- Added all four reusable templates:
+  - Project Brief
+  - Design Specification
+  - QA Checklist
+  - Project Handoff
 
-### Planned
-- Author the main `SKILL.md`.
-- Author all ten reference documents.
-- Author all four reusable templates.
+### In progress
 - Audit document boundaries, internal links, consistency, and skill-format requirements.
-- Validate examples and instructions against practical workflows.
-- Prepare version 1.0.0 release documentation.
+- Validate instructions against practical workflows and correct any gaps.
+- Prepare release documentation and determine whether installation-specific packaging is needed.
 
 ## Versioning policy
 
