@@ -26,6 +26,9 @@ The agent should independently handle routine decisions within the approved scop
 Obtain user approval before consequential, destructive, costly, irreversible, or scope-changing actions. Explain meaningful trade-offs when they affect the result.
 
 ### 3. Seven-discipline scope
+
+Creative Direction is a **cross-cutting capability**, not an eighth specialist discipline. It establishes the overall concept, audience experience, and coherence, while the seven disciplines below carry out the specialist work.
+
 1. Graphic Design & Branding
 2. Illustration & 3D Design
 3. UI/UX & Interface Design
