@@ -19,6 +19,8 @@ Repository governance and supporting documents are additional to the 15 core pac
 
 ## 2. Agent Skills format checks
 
+**Format reference:** [Agent Skills Specification](https://agentskills.io/specification).
+
 | Check | Result | Evidence |
 |---|---|---|
 | Root SKILL.md exists | Pass | Fetched from repository root |
