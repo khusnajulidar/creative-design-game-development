@@ -62,7 +62,7 @@ The project has not made an official 1.0.0 release. Repository-level static revi
 
 ### Validation
 - The three new files were created successfully on the `main` branch.
-- Repository read-back, source-content comparison, relative-link checks, and final metadata checks are being performed.
+- Repository read-back confirmed all three v2.0 documents match their uploaded source files exactly.\n- All 17 relative Markdown links in `SKILL.md` resolve successfully; Agent Skills frontmatter remains present with the required `name` and `description`.\n- README, project decisions, changelog, and validation report were updated to identify the three governing standards and preserve the supporting references/templates.
 - Official `skills-ref validate`, host installation, and runtime workflow tests remain outstanding. This adoption is not an official product release.
 
 ## Versioning policy
