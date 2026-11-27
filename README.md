@@ -39,6 +39,9 @@ creative-design-game-development/
 ├── VALIDATION-REPORT.md
 ├── USER-GUIDE.md
 ├── SKILL.md
+├── CORE-SKILL-v2.0.md
+├── SPECIALIST-REFERENCE-GUIDE-v2.0.md
+├── WORKFLOW-QA-TEMPLATES-v2.0.md
 ├── references/
 │   ├── creative-direction.md
 │   ├── graphic-branding.md
@@ -57,7 +60,7 @@ creative-design-game-development/
     └── handoff-document.md
 ```
 
-The skill package consists of **15 core documents**: one `SKILL.md`, ten discipline and practice references, and four reusable templates. Root-level documentation provides the README, changelog, approved project decisions, installation guidance, validation report, and user guide.
+The repository now has **three governing Studio standards (v2.0)**: `CORE-SKILL-v2.0.md`, `SPECIALIST-REFERENCE-GUIDE-v2.0.md`, and `WORKFLOW-QA-TEMPLATES-v2.0.md`. They are the authoritative operating standards. The Agent Skills package remains **15 supporting documents**: one `SKILL.md` entry point, ten detailed discipline/practice references, and four reusable templates. The detailed references and templates are retained as supporting resources; they do not override the three governing standards.
 
 ## Installation, usage, and validation
 
@@ -78,7 +81,7 @@ Platform-specific packaging or installation instructions may be added as adapter
 
 - Repository foundation: created.
 - Architecture and governing decisions: defined.
-- Core skill, ten references, and four templates: authored.
+- Three governing Studio standards v2.0: adopted and committed at repository root.\n- Agent Skill entry point, ten detailed references, and four templates: retained as supporting package resources.
 - User guide: authored and committed.
 - Structural checks: file inventory, relative links, and Agent Skills metadata reviewed.
 - Further validation: official `skills-ref validate` and real-agent workflow testing remain outstanding.
