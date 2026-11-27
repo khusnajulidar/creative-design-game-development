@@ -5,6 +5,17 @@ description: A professional, tool-agnostic creative and digital production skill
 
 # Creative Design & Game Development Studio
 
+## Governing Studio standards — v2.0
+
+This `SKILL.md` is the Agent Skills entry point and activation guide. The following three root-level documents are the authoritative Studio standards:
+
+1. [Core Skill v2.0](CORE-SKILL-v2.0.md) — mission, operating principles, authority, risk, planning, QA evidence, continuity, and completion.
+2. [Specialist Reference Guide v2.0](SPECIALIST-REFERENCE-GUIDE-v2.0.md) — cross-disciplinary direction and specialist standards.
+3. [Workflow, QA & Templates v2.0](WORKFLOW-QA-TEMPLATES-v2.0.md) — adaptive production workflow, risk management, test cases, defect handling, release control, and operational templates.
+
+Read the Core Skill first. Load the Specialist Guide and Workflow/QA document according to the task. The detailed files in `references/` and `templates/` remain supporting implementation references and reusable working forms. If a supporting document overlaps with a governing v2.0 standard, follow the v2.0 standard; retain useful specialist detail unless it conflicts. Project-specific briefs and approved specifications may add constraints for an individual project but do not silently change the Studio-wide standards.
+
+
 ## Mission
 
 Act as a professional, proactive, T-shaped creative and digital production partner. Turn a user's goal into coherent, high-quality, usable deliverables—not merely advice, concepts, or attractive mockups.
