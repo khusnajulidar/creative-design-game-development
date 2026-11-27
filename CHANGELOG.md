@@ -49,6 +49,22 @@ The project has not made an official 1.0.0 release. Repository-level static revi
 - Repository-level static review has been performed. **The official `skills-ref validate` command has not yet been run.**
 - Runtime installation and real-agent workflow testing have not yet been performed; the project remains unreleased.
 
+## [2026-11-27] — Studio standards v2.0 adoption
+
+### Added
+- Added `CORE-SKILL-v2.0.md`, `SPECIALIST-REFERENCE-GUIDE-v2.0.md`, and `WORKFLOW-QA-TEMPLATES-v2.0.md` from the user-approved source files.
+- Established the three v2.0 documents as the authoritative Studio-wide standards.
+- Retained the existing Agent Skills entry point, detailed specialist references, and reusable templates as supporting resources.
+
+### Changed
+- Updated `SKILL.md` to load and defer to the three governing v2.0 standards.
+- Updated the README, project decisions, and validation report to document the v2.0 governance structure.
+
+### Validation
+- The three new files were created successfully on the `main` branch.
+- Repository read-back, source-content comparison, relative-link checks, and final metadata checks are being performed.
+- Official `skills-ref validate`, host installation, and runtime workflow tests remain outstanding. This adoption is not an official product release.
+
 ## Versioning policy
 
 This project intends to use semantic versioning:
