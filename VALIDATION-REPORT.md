@@ -3,8 +3,8 @@
 **Package:** Creative Design & Game Development Studio  
 **Repository:** https://github.com/khusnajulidar/creative-design-game-development  
 **Branch reviewed:** main  
-**Review date:** 2026-11-26  
-**Status:** Static structure review completed; runtime validation pending.
+**Review date:** 2026-11-27  
+**Status:** Three governing Studio standards v2.0 committed; static read-back and link checks pending; runtime validation remains pending.
 
 ## 1. Package inventory
 
@@ -59,7 +59,7 @@ These require a specific host environment or additional project decisions:
 - Testing access to external tools, repositories, design software, and deployment systems.
 - Selecting a repository license.
 
-## 5. Release decision
+## 5. Studio standards v2.0 adoption\n\n- Three user-approved v2.0 standards were added at repository root.\n- `SKILL.md` is updated to identify them as authoritative and to retain the existing ten specialist references and four templates as supporting resources.\n- The existing detailed references and templates are retained; no original supporting document was deleted.\n- Source-to-repository read-back and relative-link checks must be recorded before this adoption is marked statically verified.\n\n## 6. Release decision
 
 **Current decision: keep the project unreleased.**
 
