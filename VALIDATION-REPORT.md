@@ -4,7 +4,7 @@
 **Repository:** https://github.com/khusnajulidar/creative-design-game-development  
 **Branch reviewed:** main  
 **Review date:** 2026-11-27  
-**Status:** Three governing Studio standards v2.0 committed; static read-back and link checks pending; runtime validation remains pending.
+**Status:** Three governing Studio standards v2.0 committed and statically checked; runtime validation remains pending.
 
 ## 1. Package inventory
 
@@ -29,7 +29,7 @@ Repository governance and supporting documents are additional to the 15 core pac
 | Name character and length rules | Pass | 32 lowercase letters/hyphen characters |
 | Name matches repository folder name | Pass | Repository folder and identifier match |
 | Required description field | Pass | Non-empty; 361 characters |
-| Main instruction length | Pass | 242 lines at review |
+| Main instruction length | Pass | 253 lines after v2.0 integration |
 | Supporting references use relative paths | Pass | 14 relative links checked |
 | Referenced files exist | Pass | All 14 targets retrieved |
 | Runtime discovery by a host agent | Not run | No target agent installation environment was tested |
@@ -42,11 +42,11 @@ The format checks above are a static review against the Agent Skills specificati
 - Seven specialist disciplines are consistently identified.
 - Creative Direction is documented as a cross-cutting capability, not an eighth specialist discipline.
 - QA and Project Continuity are shared practice references, not extra disciplines.
-- The main skill points to all ten references and all four templates.
+- The main skill points to all three governing v2.0 standards, all ten detailed references, and all four templates.
 - The main skill includes activation guidance, non-use cases, workflow rules, edge cases, examples, and progressive reference-loading guidance.
 - Project-specific requirements are kept separate from universal skill behavior.
 - The documents distinguish designed, produced, integrated, tested, verified, and released states.
-- No broken relative links were found in the main skill during this review.
+- All 17 relative Markdown links in the main skill were fetched successfully; no broken links were found.\n- All three v2.0 governing documents were fetched back from GitHub and their contents matched the uploaded source files exactly.\n- README, CHANGELOG, PROJECT-DECISIONS, and VALIDATION-REPORT were updated to document the v2.0 adoption.\n- The v2.0 documents and supporting files were retained without deleting or overwriting the original detailed references or templates.
 
 ## 4. Checks not yet performed
 
@@ -59,7 +59,7 @@ These require a specific host environment or additional project decisions:
 - Testing access to external tools, repositories, design software, and deployment systems.
 - Selecting a repository license.
 
-## 5. Studio standards v2.0 adoption\n\n- Three user-approved v2.0 standards were added at repository root.\n- `SKILL.md` is updated to identify them as authoritative and to retain the existing ten specialist references and four templates as supporting resources.\n- The existing detailed references and templates are retained; no original supporting document was deleted.\n- Source-to-repository read-back and relative-link checks must be recorded before this adoption is marked statically verified.\n\n## 6. Release decision
+## 5. Studio standards v2.0 adoption\n\n- Three user-approved v2.0 standards were added at repository root.\n- `SKILL.md` is updated to identify them as authoritative and to retain the existing ten specialist references and four templates as supporting resources.\n- The existing detailed references and templates are retained; no original supporting document was deleted.\n- Source-to-repository read-back and relative-link checks completed: all three v2.0 documents match their uploaded sources, and all 17 relative links in `SKILL.md` resolve.\n\n## 6. Release decision
 
 **Current decision: keep the project unreleased.**
 
