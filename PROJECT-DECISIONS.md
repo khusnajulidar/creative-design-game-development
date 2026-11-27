@@ -112,3 +112,16 @@ Use these terms precisely:
 - **Released:** the intended release or publication action has occurred.
 
 One stage does not automatically prove the next.
+
+
+## Studio standards v2.0 adoption — 2026-11-27
+
+The user approved comprehensive v2.0 revisions to the three governing Studio documents. The following root-level files are the authoritative Studio-wide standards:
+
+1. `CORE-SKILL-v2.0.md`
+2. `SPECIALIST-REFERENCE-GUIDE-v2.0.md`
+3. `WORKFLOW-QA-TEMPLATES-v2.0.md`
+
+The existing `SKILL.md` remains the Agent Skills activation/entry point and must direct the agent to these three documents. The ten detailed files in `references/` and four files in `templates/` remain available as supporting resources. They are not discarded; where they overlap, the governing v2.0 standards take precedence. Preserve specialist detail that remains compatible.
+
+This adoption changes the governing documentation baseline, not the release status of the Agent Skill package. The repository remains unreleased until its outstanding format validation, host installation, and runtime workflow tests are completed.
