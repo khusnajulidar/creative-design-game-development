@@ -85,7 +85,8 @@ Platform-specific packaging or installation instructions may be added as adapter
 - Agent Skill entry point, ten detailed references, and four templates: retained as supporting package resources.
 - User guide: authored and committed.
 - Structural checks: file inventory, relative links, and Agent Skills metadata reviewed.
-- Further validation: official `skills-ref validate` and real-agent workflow testing remain outstanding.
+- Official Agent Skills format validation: `skills-ref validate` passed locally against the extracted package on 2026-11-28.
+- Remaining validation: host installation, runtime discovery/activation, and practical agent workflow testing.
 - Release: not yet published.
 
 **Target initial version:** 1.0.0
