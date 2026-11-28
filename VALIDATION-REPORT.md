@@ -46,7 +46,10 @@ The format checks above are a static review against the Agent Skills specificati
 - The main skill includes activation guidance, non-use cases, workflow rules, edge cases, examples, and progressive reference-loading guidance.
 - Project-specific requirements are kept separate from universal skill behavior.
 - The documents distinguish designed, produced, integrated, tested, verified, and released states.
-- All 17 relative Markdown links in the main skill were fetched successfully; no broken links were found.\n- All three v2.0 governing documents were fetched back from GitHub and their contents matched the uploaded source files exactly.\n- README, CHANGELOG, PROJECT-DECISIONS, and VALIDATION-REPORT were updated to document the v2.0 adoption.\n- The v2.0 documents and supporting files were retained without deleting or overwriting the original detailed references or templates.
+- All 17 relative Markdown links in the main skill were fetched successfully; no broken links were found.
+- All three v2.0 governing documents were fetched back from GitHub and their contents matched the uploaded source files exactly.
+- README, CHANGELOG, PROJECT-DECISIONS, and VALIDATION-REPORT were updated to document the v2.0 adoption.
+- The v2.0 documents and supporting files were retained without deleting or overwriting the original detailed references or templates.
 
 ## 4. Checks not yet performed
 
@@ -59,7 +62,14 @@ These require a specific host environment or additional project decisions:
 - Testing access to external tools, repositories, design software, and deployment systems.
 - Selecting a repository license.
 
-## 5. Studio standards v2.0 adoption\n\n- Three user-approved v2.0 standards were added at repository root.\n- `SKILL.md` is updated to identify them as authoritative and to retain the existing ten specialist references and four templates as supporting resources.\n- The existing detailed references and templates are retained; no original supporting document was deleted.\n- Source-to-repository read-back and relative-link checks completed: all three v2.0 documents match their uploaded sources, and all 17 relative links in `SKILL.md` resolve.\n\n## 6. Release decision
+## 5. Studio standards v2.0 adoption
+
+- Three user-approved v2.0 standards were added at repository root.
+- `SKILL.md` is updated to identify them as authoritative and to retain the existing ten specialist references and four templates as supporting resources.
+- The existing detailed references and templates are retained; no original supporting document was deleted.
+- Source-to-repository read-back and relative-link checks completed: all three v2.0 documents match their uploaded sources, and all 17 relative links in `SKILL.md` resolve.
+
+## 6. Release decision
 
 **Current decision: keep the project unreleased.**
 
