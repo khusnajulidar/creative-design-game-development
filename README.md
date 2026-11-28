@@ -81,7 +81,8 @@ Platform-specific packaging or installation instructions may be added as adapter
 
 - Repository foundation: created.
 - Architecture and governing decisions: defined.
-- Three governing Studio standards v2.0: adopted and committed at repository root.\n- Agent Skill entry point, ten detailed references, and four templates: retained as supporting package resources.
+- Three governing Studio standards v2.0: adopted and committed at repository root.
+- Agent Skill entry point, ten detailed references, and four templates: retained as supporting package resources.
 - User guide: authored and committed.
 - Structural checks: file inventory, relative links, and Agent Skills metadata reviewed.
 - Further validation: official `skills-ref validate` and real-agent workflow testing remain outstanding.
