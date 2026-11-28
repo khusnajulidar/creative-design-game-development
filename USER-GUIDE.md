@@ -2,7 +2,7 @@
 
 Panduan ini menjelaskan cara menggunakan skill **Creative Design & Game Development Studio** agar AI dapat membantu menghasilkan pekerjaan kreatif dan digital yang terarah, konsisten, dapat diuji, dan siap digunakan.
 
-> **Status:** Panduan penggunaan. Validasi resmi dengan `skills-ref validate` belum dilakukan. Panduan ini tidak menyatakan bahwa paket telah lolos validasi teknis.
+> **Status:** Panduan penggunaan. Format paket telah lulus pemeriksaan lokal `skills-ref validate` v0.0.1 pada 2026-11-28. Instalasi host dan pengujian workflow nyata masih perlu dilakukan.
 
 ## 1. Pahami fungsi skill
 
