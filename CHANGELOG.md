@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented here.
 
-The project has not made an official 1.0.0 release. Repository-level static review has been performed, but the official `skills-ref validate` command has not yet been run. Runtime installation and host-agent workflow testing also remain pending.
+The project has not made an official 1.0.0 release. Repository-level static review and local `skills-ref validate` have passed. Runtime installation and host-agent workflow testing remain pending.
 
 ## [Unreleased]
 
@@ -46,7 +46,7 @@ The project has not made an official 1.0.0 release. Repository-level static revi
 - All 14 relative links in `SKILL.md` were checked against repository paths; no broken links were found.
 - `SKILL.md` frontmatter has the required `name` and `description`; the identifier is 32 characters, and the current file is 242 lines (below the 500-line recommendation).
 - Main skill activation guidance and examples were expanded.
-- Repository-level static review has been performed. **The official `skills-ref validate` command has not yet been run.**
+- Repository-level static review and local `skills-ref validate` v0.0.1 on Windows x64 passed on 2026-11-28 against the extracted package.
 - Runtime installation and real-agent workflow testing have not yet been performed; the project remains unreleased.
 
 ## [2026-11-27] — Studio standards v2.0 adoption
@@ -63,7 +63,7 @@ The project has not made an official 1.0.0 release. Repository-level static revi
 ### Validation
 - The three new files were created successfully on the `main` branch.
 - Repository read-back confirmed all three v2.0 documents match their uploaded source files exactly.\n- All 17 relative Markdown links in `SKILL.md` resolve successfully; Agent Skills frontmatter remains present with the required `name` and `description`.\n- README, project decisions, changelog, and validation report were updated to identify the three governing standards and preserve the supporting references/templates.
-- Official `skills-ref validate`, host installation, and runtime workflow tests remain outstanding. This adoption is not an official product release.
+- Official `skills-ref validate` passed locally on 2026-11-28; host installation and runtime workflow tests remain outstanding. This adoption is not an official product release.
 
 ## Versioning policy
 
